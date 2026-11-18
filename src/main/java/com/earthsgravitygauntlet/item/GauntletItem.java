@@ -74,7 +74,7 @@ public class GauntletItem extends Item {
     public void releaseUsing(ItemStack stack, Level level, LivingEntity entity, int timeLeft) {
         if (level.isClientSide || !(entity instanceof ServerPlayer player)) return;
         CompoundTag data = player.getPersistentData();
-        int used = getUseDuration(stack) - timeLeft;
+        int used = getUseDuration(stack, entity) - timeLeft;
         if (used <= TAP_TICKS && data.getBoolean(TAG_SNEAK_START) && !data.getBoolean(TAG_PLANTED)) {
             GauntletActions.toggleMark(player, stack);
         }
