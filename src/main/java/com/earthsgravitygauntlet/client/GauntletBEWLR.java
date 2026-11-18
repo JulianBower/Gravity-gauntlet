@@ -12,7 +12,7 @@ public class GauntletBEWLR extends BlockEntityWithoutLevelRenderer {
     private EarthGauntletModel model;
 
     public GauntletBEWLR() {
-        super(Minecraft.getInstance().getBlockEntityRenderDispatcher(), Minecraft.getInstance().getEntityModelSet());
+        super(Minecraft.getInstance().getBlockEntityRenderDispatcher(), Minecraft.getInstance().getEntityModels());
     }
 
     @Override
@@ -25,7 +25,7 @@ public class GauntletBEWLR extends BlockEntityWithoutLevelRenderer {
                              MultiBufferSource buffers, int light, int overlay) {
         Minecraft mc = Minecraft.getInstance();
         if (this.model == null) {
-            this.model = new EarthGauntletModel(mc.getEntityModelSet().bakeLayer(EarthGauntletModel.LAYER));
+            this.model = new EarthGauntletModel(mc.getEntityModels().bakeLayer(EarthGauntletModel.LAYER));
         }
         float partial = mc.getTimer().getGameTimeDeltaPartialTick(false);
         float time = (mc.level != null ? mc.level.getGameTime() : 0L) + partial;
