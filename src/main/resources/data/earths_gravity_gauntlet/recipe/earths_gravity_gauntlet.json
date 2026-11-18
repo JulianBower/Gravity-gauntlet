@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["DND", "NCN", "DND"],
+  "key": {
+    "C": {"item": "earths_gravity_gauntlet:earths_gravity_core"},
+    "N": {"item": "minecraft:netherite_ingot"},
+    "D": [{"item": "minecraft:reinforced_deepslate"}, {"item": "minecraft:crying_obsidian"}]
+  },
+  "result": {"id": "earths_gravity_gauntlet:earths_gravity_gauntlet", "count": 1}
+}

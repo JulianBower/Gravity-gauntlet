@@ -1,0 +1,23 @@
+{
+  "block.earths_gravity_gauntlet.gravity_core_ore": "Gravity Core Ore",
+  "item.earths_gravity_gauntlet.earths_gravity_core": "Earth's Gravity Core",
+  "item.earths_gravity_gauntlet.earths_gravity_gauntlet": "Earth's Gravity Gauntlet",
+  "entity.earths_gravity_gauntlet.gravity_anchor": "Gravity Anchor",
+  "itemGroup.earths_gravity_gauntlet": "Earth's Gravity Gauntlet",
+  "key.earths_gravity_gauntlet.toggle_self_pull": "Toggle Self-Pull Mode",
+  "key.categories.earths_gravity_gauntlet": "Earth's Gravity Gauntlet",
+  "message.earths_gravity_gauntlet.self_pull_on": "Gauntlet Mode: Self-Pull [ON]",
+  "message.earths_gravity_gauntlet.self_pull_off": "Gauntlet Mode: Entity Pull [OFF]",
+  "message.earths_gravity_gauntlet.distance": "Gravity Point Distance: %s blocks",
+  "message.earths_gravity_gauntlet.no_surface": "No surface in range to plant an anchor",
+  "message.earths_gravity_gauntlet.marked": "Marked %s (%s/%s)",
+  "message.earths_gravity_gauntlet.unmarked": "Unmarked %s (%s/%s)",
+  "message.earths_gravity_gauntlet.mark_full": "Maximum of %s marked targets reached",
+  "message.earths_gravity_gauntlet.cleared": "All marked targets cleared",
+  "tooltip.earths_gravity_gauntlet.distance": "Cursor Distance: %s blocks",
+  "tooltip.earths_gravity_gauntlet.marked": "Marked Targets: %s/%s",
+  "tooltip.earths_gravity_gauntlet.controls_1": "Hold Right-Click: live gravity point (Scroll = distance)",
+  "tooltip.earths_gravity_gauntlet.controls_2": "Hold Right-Click + Left-Click: plant anchor (Sneak = mid-air)",
+  "tooltip.earths_gravity_gauntlet.controls_3": "Sneak + Right-Click tap: mark / clear targets",
+  "tooltip.earths_gravity_gauntlet.controls_4": "[G]: toggle Self-Pull Mode"
+}

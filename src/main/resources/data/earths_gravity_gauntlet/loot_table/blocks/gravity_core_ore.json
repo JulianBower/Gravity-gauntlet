@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1.0,
+    "bonus_rolls": 0.0,
+    "entries": [{"type": "minecraft:item", "name": "earths_gravity_gauntlet:earths_gravity_core"}],
+    "conditions": [{"condition": "minecraft:survives_explosion"}]
+  }],
+  "random_sequence": "earths_gravity_gauntlet:blocks/gravity_core_ore"
+}
